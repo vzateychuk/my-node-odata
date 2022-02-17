@@ -1,0 +1,62 @@
+{
+  "name": "my-node-odata",
+  "version": "0.7.16",
+  "private": false,
+  "description": "A module for easily create a REST API based on oData protocol",
+  "main": "index.js",
+  "author": {
+    "name": "Zack",
+    "email": "zackyang@outlook.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TossShinHwa/node-odata.git"
+  },
+  "engines": {
+    "node": ">=0.12"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "prepublish": "make",
+    "test": "make"
+  },
+  "keywords": [
+    "OData",
+    "REST",
+    "RESTful"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "2.8.3",
+    "express": "^4.17.1",
+    "method-override": "2.3.10",
+    "mongoose": "4.9.5",
+    "node-odata": "^0.7.16",
+    "uuid": "3.0.1"
+  },
+  "devDependencies": {
+    "babel": "6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "6.24.1",
+    "babel-eslint": "7.2.2",
+    "babel-helpers": "6.24.1",
+    "babel-loader": "6.4.1",
+    "babel-plugin-transform-decorators-legacy": "1.3.4",
+    "babel-polyfill": "6.23.0",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-stage-0": "6.24.1",
+    "babel-register": "6.24.1",
+    "babel-runtime": "6.23.0",
+    "eslint": "3.19.0",
+    "eslint-config-airbnb": "14.1.0",
+    "eslint-plugin-babel": "4.1.1",
+    "eslint-plugin-import": "^2.17.3",
+    "istanbul": "1.1.0-alpha.1",
+    "mocha": "4.0.1",
+    "should": "11.2.1",
+    "should-sinon": "0.0.5",
+    "sinon": "2.1.0",
+    "supertest": "3.0.0"
+  }
+}

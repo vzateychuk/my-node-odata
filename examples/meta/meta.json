@@ -1,0 +1,31 @@
+[
+    {
+      "author": "Gambardella, Matthew",
+      "description": "An in-depth look at creating applications \n with XML.",
+      "meta": [
+          {"price": 44.95},
+          {"publish_date": "2000-10-01"},
+          {"title": "XML Developer's Guide"}
+        ]
+    },
+    {
+      "author": "Ralls, Kim",
+      "description": "A former architect battles corporate zombies, \n an evil sorceress, and her own childhood to become queen \n of the world.",
+      "meta": [
+        {"genre": "Fantasy"},
+        {"price": 5.95},
+        {"publish_date": "2000-12-16"},
+        {"title": "Midnight Rain"}
+      ]      
+    },
+    {
+      "author": "Corets, Eva",
+      "description": "After the collapse of a nanotechnology \n society in England, the young survivors lay the \n foundation for a new society.",
+      "meta":[
+        {"genre": "Fantasy"},
+        {"price": 5.95},
+        {"publish_date": "2000-11-17"},
+        {"title": "Maeve Ascendant"}  
+      ]
+    }
+]  
